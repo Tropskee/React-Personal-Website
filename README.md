@@ -1,3 +1,6 @@
+# My Personal Website
+Welcome to my personal website code repository, feel free to take a look at the live website here - personal-website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
