@@ -42,7 +42,7 @@ export default function HorizontalCard(props) {
             <Button
               className="horizontal-card-button"
               variant="info"
-              href="..."
+              href={props.href}
               target="_blank"
               block
             >

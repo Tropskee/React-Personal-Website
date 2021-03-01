@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CalculatorButton from "./CalculatorButton";
 import "./Calculator.css";
+import Button from "react-bootstrap/Button";
 // Use 'eval()' function that accepts string of characters and outputs value
 
 function CalculatorApp() {
@@ -202,6 +203,15 @@ function CalculatorApp() {
           ></CalculatorButton>
         </div>
       </div>
+      <Button
+        className="calculator-link-button"
+        variant="info"
+        href="https://github.com/Tropskee/React-Calculator-App"
+        target="_blank"
+        block
+      >
+        Check out the Github
+      </Button>
     </div>
   );
 }

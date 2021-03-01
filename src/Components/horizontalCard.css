@@ -57,6 +57,8 @@
   border-radius: 8px;
 }
 
+/* Start Media */
+
 @media only screen and (max-width: 1050px) {
   .horizontal-card-container {
     width: 95% !important;

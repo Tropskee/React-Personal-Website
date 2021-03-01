@@ -1,3 +1,5 @@
+/* Helper function to scroll route links to top of page when clicked */
+
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
