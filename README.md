@@ -1,4 +1,5 @@
-# Welcome to my personal website code repository. Feel free to take a look at the final project here - personal-website.
+# My Personal Website
+Welcome to my personal website code repository, feel free to take a look at the live website here - personal-website.
 
 # Getting Started with Create React App
 
