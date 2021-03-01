@@ -1,0 +1,213 @@
+/* Technique to explore crappy css */
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
+.hero-container {
+  background: url("../images/mtn_view.jpg") center center/cover no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.personal-details {
+  font-size: 48px;
+  color: #f9f9f9;
+  font-family: "Permanent Marker", cursive;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.personal-details > h2 {
+  font-size: 98px;
+}
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-size: 28px;
+  font-family: "Permanent Marker";
+  background-color: #242424;
+  padding-top: 72px;
+  color: #bbbaba;
+}
+
+#hero-thanks {
+  font-size: 48px;
+  color: #f9f9f9;
+}
+
+/* CARD START */
+.card-container {
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  padding: 48px 0 96px 0;
+}
+.card-item {
+  margin: 0 24px 0 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-image {
+  object-fit: fill;
+  max-height: 220px;
+}
+
+.card-title {
+  font-family: "Permanent Marker", cursive;
+  color: #242424;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.card-title:hover {
+  color: rgba(20, 163, 184, 0.7);
+}
+
+.cards-link {
+  text-decoration: none !important;
+}
+
+.card-text {
+  display: flex;
+  text-align: center;
+}
+.card-button {
+  background-color: #14a3b8 !important;
+  border-color: #14a3b8;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.card-button:hover {
+  background-color: rgba(20, 163, 184, 0.7) !important;
+  border: none;
+}
+
+.stock-code-photo {
+  background: url("../images/stock_code.jpg") center center/cover no-repeat;
+  background-attachment: fixed;
+  height: 40vh;
+  width: 100%;
+}
+
+.hero-lower-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 72px 0 96px 0;
+  color: #f9f9f9;
+  background-color: #242424;
+  margin: auto;
+}
+
+.carousel-about {
+  padding-bottom: 24px;
+  font-family: "Permanent Marker", cursive;
+}
+.carousel-about > h2 {
+  font-size: 40px;
+}
+
+/* MEDIA START */
+@media only screen and (max-width: 1250px) {
+  .personal-details {
+    font-size: 48px;
+    color: #f7f7f7;
+    font-family: "Permanent Marker", cursive;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .greeting {
+    font-size: 28px;
+  }
+
+  #hero-thanks {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .personal-details {
+    font-size: 36px;
+    color: #f7f7f7;
+    font-family: "Permanent Marker", cursive;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .personal-details {
+    font-size: 30px;
+    color: #f7f7f7;
+    font-family: "Permanent Marker", cursive;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+  }
+  .personal-details > h2 {
+    font-size: 62px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    padding: 0 0 16px 0;
+  }
+
+  .card-item {
+    margin: 16px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .carousel-about > h2 {
+    font-size: 24px;
+  }
+  .greeting {
+    font-size: 20px;
+  }
+
+  #hero-thanks {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .personal-details {
+    font-size: 24px;
+    color: #f7f7f7;
+    font-family: "Permanent Marker", cursive;
+    height: auto;
+    width: auto;
+  }
+  .card-item {
+    height: 100%;
+    width: 95% !important;
+  }
+  .personal-details > h2 {
+    font-size: 32px;
+  }
+  .greeting {
+    padding-bottom: 36px;
+  }
+}

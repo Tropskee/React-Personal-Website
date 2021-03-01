@@ -1,0 +1,35 @@
+.calculator-button {
+  appearance: button;
+  writing-mode: horizontal-tb !important;
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  display: inline-block;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 6px;
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black !important;
+  border: none;
+  background-color: #4d4d4d;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  cursor: default;
+}
+
+button:hover {
+  outline: 0.05em solid grey !important;
+  color: black;
+  z-index: 3;
+}

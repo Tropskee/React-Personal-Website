@@ -1,0 +1,219 @@
+/* All of resume page */
+h2,
+h3 {
+  font-family: "Permanent Marker", cursive;
+}
+
+/* Main Container */
+
+.resume-container {
+  color: #f9f9f9;
+  background-color: #242424;
+}
+
+.resume-passions-container .fas {
+  font-size: 48px;
+}
+
+.resume-hr {
+  background-color: #f9f9f9;
+  max-width: 65%;
+}
+
+/* Top Section */
+.resume-top-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 2% 0 1% 0;
+  width: 80%;
+  margin: auto;
+}
+
+.resume-name,
+.resume-prof-pic,
+.resume-careers-container {
+  flex: 1;
+}
+
+#prof-img {
+  border-radius: 180px;
+}
+
+.resume-name > h2 {
+  color: #f9f9f9;
+  font-size: 48px;
+}
+
+/* End Top Section */
+
+/* Text colors */
+#data-science {
+  color: #ff8686;
+}
+
+#engineer {
+  color: #ffdd86;
+}
+
+#software-development {
+  color: #0bb3fb;
+}
+
+/* Middle Section */
+.resume-center-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  padding: 1% 0 4% 0;
+}
+
+.resume-interests-container,
+.resume-skills-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: stretch;
+  flex: 1;
+  overflow: hidden;
+  padding: 0 2% 0 2%;
+}
+
+.resume-education-wrapper,
+.resume-skills-wrapper,
+.resume-passions-wrapper {
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  justify-content: stretch;
+  background-color: #303030;
+  border-radius: 18px;
+}
+
+.resume-data-science,
+.resume-engineer,
+.resume-software-developer {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.skill-col {
+  flex: 1;
+}
+
+#data-science {
+  padding-top: 16px;
+}
+
+.resume-education,
+.resume-passions {
+  flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+
+.resume-passions-top,
+.resume-passions-bottom,
+.resume-ou,
+.resume-occc {
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px 0 8px 0;
+}
+
+.resume-education {
+  text-align: left;
+}
+
+.resume-school-logo {
+  flex: 1;
+  text-align: center;
+}
+.resume-school-text {
+  flex: 2;
+}
+
+#passions {
+  padding-top: 18px;
+}
+
+.resume-passions-top {
+  padding-top: 24px;
+}
+
+/* End Middle Section */
+
+/* Bottom Section */
+.resume-bottom-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 82%;
+  margin: auto;
+  text-align: center;
+}
+
+.resume-exp-wrapper {
+  background-color: #303030;
+  border-radius: 16px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-bp-container,
+.resume-soldyn-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+}
+
+#bp-logo,
+#soldyn-logo {
+  text-align: center;
+  padding: 18px 0 18px 0;
+}
+
+.resume-bp-roles,
+.resume-soldyn-roles {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 85%;
+}
+
+/* End Bottom Section */
+
+/* Start Media Queries */
+@media only screen and (max-width: 600px) {
+  .resume-top-container {
+    flex-flow: column wrap;
+    width: 95%;
+  }
+  .resume-center-container {
+    flex-flow: column wrap;
+    width: 95%;
+  }
+  .resume-bottom-container {
+    width: 95%;
+    padding-bottom: 16px;
+  }
+  .resume-bp-roles,
+  .resume-soldyn-roles {
+    max-width: 90%;
+  }
+}
